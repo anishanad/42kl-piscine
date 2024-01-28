@@ -12,7 +12,7 @@ int ft_str_is_printable(char *str)
     while (*str != '\0') 
     {
         // Check if the current character is not a printable character
-        if (!((*str > 32 && *str < 127)))
+        if (!((*str >= 32 && *str < 127)))
         {
             return 0;
         } 

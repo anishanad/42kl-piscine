@@ -13,7 +13,8 @@ void    ft_sort_int_tab(int *tab, int size)
 {
     int i;
     int j;
-
+    
+    i = 0;
     j = 0;
     while(i < size)
     {
